@@ -3,6 +3,12 @@
   "description": "Browser extension to remove paying partners images sections",
   "version": "1.0",
   "manifest_version": 3,
+  "icons": {
+    "16": "icon_16.png",
+    "32": "icon_32.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://*.unsplash.com/*"],
