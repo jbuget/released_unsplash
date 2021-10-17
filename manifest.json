@@ -1,6 +1,6 @@
 {
   "name": "Released Unsplash",
-  "description": "Browser extension to remove paying partners images sections",
+  "description": "Browser extension to remove ads images sections",
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
