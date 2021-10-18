@@ -1,5 +1,5 @@
 {
-  "name": "Released Unsplash",
+  "name": "Unsplashed",
   "description": "Browser extension to remove ads images sections",
   "version": "1.0",
   "manifest_version": 3,
@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["https://*.unsplash.com/*"],
-      "js": ["released_unsplash.js"]
+      "js": ["unsplashed.js"]
     }],
   "permissions": [
     "declarativeNetRequest"
